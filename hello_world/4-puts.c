@@ -1,8 +1,11 @@
+/**
+ * description : function puts, main.
+ */
 #include<stdio.h>
 /**
  * description : function puts, main.
  * main prints out a string to output
- * return : if succes value 0
+ * return : 0 if success.
  */
 int main(void)
 {
