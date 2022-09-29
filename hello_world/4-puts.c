@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- * 'puts' function in C is used to write a line or string
+ *"main" function : prints out a string to stdout.
+ * "puts" function in C is used to write a line or string
  * to the output (stdout) stream.
  * it prints the passed string with a new line and returns
  * an integer value.
