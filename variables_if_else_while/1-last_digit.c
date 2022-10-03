@@ -7,13 +7,10 @@
 #include <stdio.h>
 
 /**
- * main - Print the last digit of the number stored
- * in the variable n whether
- * it's grater than 5, it's less than 6, or zero.
+ * main -`Entry point
  *
- * Return : always 0.
+ * Return : always 0 (success)
  */
-
 
 int main(void)
 {
