@@ -6,8 +6,9 @@
  * main - prints a random number whether
  *   it is positiven negative or zero
  *
- * return - always 0
+ * return : always 0
  */
+
 int main(void)
 {
 	int n;
