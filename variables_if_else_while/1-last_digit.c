@@ -1,5 +1,5 @@
 /*
- *file : 1-last_digit.c
+ * file : 1-last_digit.c
  */
 
 #include <stdlib.h>
@@ -7,7 +7,8 @@
 #include <stdio.h>
 
 /**
- * main : Print the last digit of the number stored in the variable n
+ * main - Print the last digit of the number stored
+ * in the variable n whether
  * it's grater than 5, it's less than 6, or zero.
  *
  * Return : always 0.
