@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * prototype - print_sign(int n); prints the sign
- * of a number.
- * @n: number in input.
- *
- * Return: 1 if n is greater than zero,
- * 0 if is zero,
- * -1 if is less than zero.
- */
+* print_sign(int n) - prints the sign of a number.
+* @n: number in input.
+*
+* Return: 1 if n is greater than zero,
+* 0 if is zero,
+* -1 if is less than zero.
+*/
 
-int print_sign(int n);
+int print_sign(int n)
 {
 if (n > 0)
 {
