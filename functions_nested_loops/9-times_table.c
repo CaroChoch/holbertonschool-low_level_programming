@@ -15,7 +15,7 @@ for (num = 0; num <= 9; num++)
 _putchar('0');
 _putchar(',');
 _putchar(' ');
-for (mult = 0; mult <= 9; mult++)
+for (mult = 1; mult <= 9; mult++)
 {
 prod = (num * mult);
 if ((prod / 10) > 0)
