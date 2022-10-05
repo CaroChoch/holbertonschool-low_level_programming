@@ -2,10 +2,11 @@
 
 /**
 * main - program that prints the numbers from 1 to 100.
-* @Fizz: Fizz is printing instead of multiples of three.
-* @Buzz: Buzz is printing instead of multiples of five.
-* @FizzBuzz: FizzBuzz is printing instead of multiples of both three
+* Fizz: Fizz is printing instead of multiples of three.
+* Buzz: Buzz is printing instead of multiples of five.
+* FizzBuzz: FizzBuzz is printing instead of multiples of both three
 * and five.
+* Return: void.
 */
 
 int main(void)
