@@ -4,8 +4,8 @@
 /**
 * main - Prints the largest prime factor of 612852475143
 *
-* @odd: odd numbers
-* 
+* @odd: odd numbers.
+*
 * Return: always 0
 */
 int main(void)
