@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reverse_array - function that 
+ * reverse_array - function that
  * reverses the content of an array of
  * integers.
  * @a: array of integers.
