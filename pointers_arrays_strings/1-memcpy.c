@@ -8,6 +8,7 @@
 * @dest: memory area destination.
 * @src: memory area source.
 * @n: number of bytes copied.
+* @_memcpy: copies memory area.
 *
 * return: dest
 */
