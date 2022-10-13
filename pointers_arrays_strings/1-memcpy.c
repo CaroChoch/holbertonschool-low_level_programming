@@ -5,11 +5,11 @@
 * _memcpy - function that copies
 * memory area.
 *
-* @_memcpy: function that copies
-* memory area.
 * @dest: memory area destination.
 * @src: memory area source.
 * @n: number of bytes copied.
+*
+* return: dest
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
