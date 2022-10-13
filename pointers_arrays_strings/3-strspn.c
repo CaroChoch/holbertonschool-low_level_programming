@@ -8,7 +8,7 @@
  * @s: initial segment
  * @accept: bytes are coming from here.
  *
- * Return : number of bytes.
+ * Return: number of bytes.
  */
 
 unsigned int _strspn(char *s, char *accept)
