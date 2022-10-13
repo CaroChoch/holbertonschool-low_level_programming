@@ -2,15 +2,14 @@
 #include <stdio.h>
 
 /**
-* Desciption - function that copies
+* _memcpy - function that copies
 * memory area.
 *
 * @dest: memory area destination.
 * @src: memory area source.
 * @n: number of bytes copied.
-* @_memcpy: copies memory area.
 *
-* return: dest
+* Return: dest
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
