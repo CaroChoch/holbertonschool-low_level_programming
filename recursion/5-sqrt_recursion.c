@@ -2,14 +2,17 @@
 #include <stdio.h>
 
 /**
- * _sqrt_recursion - function that
- * returns the natural square root of
- * a number.
+ * find_sqrt - function that finds the
+ * natural square root of the input
+ * number.
+ * @num: number to find the square root
+ * @root : the root.
  *
- * @n: number being evaluated.
- *
- * Return: square root.
+ * Return: if number has a natural
+ * square root, the square root
+ * if the number doesn't have : -1.
  */
+
 
 
 int find_sqrt(int num, int root)
@@ -22,14 +25,13 @@ int find_sqrt(int num, int root)
 }
 
 /**
- * find_sqrt - function that finds the
- * natural square root of the input
- * number.
- * @num: number to find the square root
- * @root : the root
- * Return: if number has a natural
- * square root, the square root
- * if the number doesn't have : -1.
+ * _sqrt_recursion - function that
+ * returns the natural square root of
+ * a number.
+ *
+ * @n: number being evaluated.
+ *
+ * Return: square root.
  */
 
 
