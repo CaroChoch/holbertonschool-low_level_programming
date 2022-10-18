@@ -2,14 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - print the name of a program.
+ * main - multiplies 2 numbers.
  *
  * @argv: array containing command line
- * of arguments.
+ * arguments.
  * @argc: number of command line
  * arguments.
  *
- * Return: 1.
+ * Return: 1 if error, 0 if funtion run
+ * correctly.
  */
 
 int main(int argc, char *argv[])
