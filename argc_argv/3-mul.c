@@ -18,7 +18,13 @@ int main(int argc, char *argv[])
 
 	int result = 1;
 
-	for (i = 1; i < argc; i++)
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+
+		for (i = 1; i < argc; i++)
 	{
 		result = result * strtol(argv[i], NULL, 10);
 	}
