@@ -24,10 +24,13 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 
-	for (; *(s1 + i); ++i)
+	while (*(s1 + i))
+		i++;
 	len = i;
 
-	for (i = 0; *(s2 + i); ++i)
+	i = 0;
+	while (*(s2 + i))
+		i++;
 	len = len + i;
 
 	str = malloc(sizeof(char) * (len + 1));
