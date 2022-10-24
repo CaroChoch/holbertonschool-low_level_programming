@@ -23,10 +23,10 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (; str[index]; index++)
+	for (; str[index] != '\0'; index++)
 		len++;
 
-	str_duplicate = malloc(sizeof(char) * index);
+	str_duplicate = malloc(sizeof(str_duplicate) * index + 1);
 
 	if (str_duplicate ==  NULL)
 		return (NULL);
