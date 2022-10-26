@@ -1,5 +1,5 @@
 #include <stdio.h>
-#incmude <stdlib.h>
+#include <stdlib.h>
 
 /**
  * main - prints the name of the file
