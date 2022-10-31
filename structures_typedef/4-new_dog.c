@@ -11,14 +11,14 @@
 
 int _strlen(char *s)
 {
-        int c = 0;
+	int c = 0;
 
-        for (; *s != '\0'; s++)
-        {
-                c++;
-        }
+	for (; *s != '\0'; s++)
+	{
+		c++;
+	}
 
-        return (c);
+	return (c);
 }
 
 /**
@@ -31,16 +31,16 @@ int _strlen(char *s)
 
 char *_strcpy(char *dest, char *src)
 {
-        int j;
+	int j;
 
-        for (j = 0; src[j] != '\0'; j++)
-        {
-                dest[j] = src[j];
-        }
+	for (j = 0; src[j] != '\0'; j++)
+	{
+		dest[j] = src[j];
+	}
 
-        dest[j++] = '\0';
+	dest[j++] = '\0';
 
-        return (dest);
+	return (dest);
 }
 
 /**
@@ -58,10 +58,10 @@ char *_strcpy(char *dest, char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	struct dog *new_dog_name;
-	
+
 	new_dog_name = malloc(sizeof(new_dog_name));
 	if (new_dog_name == NULL)
-		return(NULL);
+		return (NULL);
 
 	new_dog_name->name = malloc(sizeof(char) * _strlen(name) + 1);
 	if (new_dog_name == NULL)
