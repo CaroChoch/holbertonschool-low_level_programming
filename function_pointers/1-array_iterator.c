@@ -7,6 +7,7 @@
  * parameter on each element of an
  * array.
  *
+ * @array: array
  * @size: size of the array
  * @action: pointer to the function
  */
@@ -17,8 +18,11 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	if (array != NULL && action != NULL && size > 0)
 	{
-		for (; i < size; i++);
-		action(array[i]);
+		while (i < size)
+		{
+			action(array[i]);
+			i++;
+		}
 	}
 }
 
