@@ -6,8 +6,8 @@
  * a variable of type struct dog.
  *
  * @d: new dog
- * @name: its name
- * @age: its age
+ * @name: its name.
+ * @age: its age.
  * @owner: its owner.
  */
 
