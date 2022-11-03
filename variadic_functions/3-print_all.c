@@ -41,7 +41,7 @@ void print_float(va_list argp)
 
 /**
  * print_string - Prints a string
- * 
+ *
  * @argp: Argument pointer
  */
 
