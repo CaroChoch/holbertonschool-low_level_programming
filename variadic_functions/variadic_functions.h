@@ -8,6 +8,12 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
+typedef struct print
+{
+	char *type;
+	void (*f)(va_list argp);
+} print_type;
+
 #endif
 
 
