@@ -13,16 +13,29 @@
  */
 int main(int argc, char *argv[])
 {
+	int bytes, index;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
 	}
-	if (atoi(argv[1]) < 0)
+
+	bytes = atoi(argv[1]);
+	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
+
+
+	for (index = 0; index < bytes; index++)
+	{
+		printf("%02hhx", ((char *)main)[index]);
+		if (index < bytes - 1)
+			printf(" ");
+	}
+	printf("\n");
 	return (0);
 }
 
