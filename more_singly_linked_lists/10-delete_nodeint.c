@@ -19,7 +19,6 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	listint_t *tmp, *prev = *head;
 	unsigned int i;
 
-	
 	if (head == NULL || *head == NULL)
 		return (-1);
 
