@@ -5,7 +5,7 @@
  * the binary representation of a numbr
  *
  * @n: decimal number to convert in
- * binary
+ * binary.
  * Return: binary number of a decimal
  * number.
  */
@@ -21,5 +21,11 @@ void print_binary(unsigned long int n)
 	else
 		_putchar('0');
 }
+
+
+
+
+
+
 
 
