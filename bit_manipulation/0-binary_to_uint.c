@@ -18,17 +18,18 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int val = 0;
-	int i, size = strlen(b);
+	int index = 0, len = strlen(b);
 
 	if (b == NULL)
 		return (0);
 
-	for (i = 0; i < size; i++)
+	while(index < len)
 	{
-		if (b[i] == '0' || b[i] == '1')
+		if (b[index] == '0' || b[index] == '1')
 		{
-		val <<= 1;
-		val += b[i] - '0';
+			val <<= 1;
+			val += b[index] - '0';
+			index++;
 		}
 		else
 			return (0);
