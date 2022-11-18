@@ -7,7 +7,7 @@
  * @n: number to check the value of
  * @index: the index to look for the
  * number.
- * Return : the value of the bit at
+ * Return: the value of the bit at
  * index or -1 if an error occured.
  */
 
@@ -19,5 +19,7 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (bit);
 	else
 		return (-1);
+	
+	return (1);
 }
 
