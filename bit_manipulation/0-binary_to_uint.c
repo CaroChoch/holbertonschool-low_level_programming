@@ -18,10 +18,12 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int val = 0;
-	int index = 0, len = strlen(b);
+	int index = 0, len;
 
 	if (b == NULL)
 		return (0);
+
+	len = strlen(b);
 
 	while (index < len)
 	{
