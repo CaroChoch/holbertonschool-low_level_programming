@@ -23,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 		return (0);
 
-	while(index < len)
+	while (index < len)
 	{
 		if (b[index] == '0' || b[index] == '1')
 		{
@@ -33,8 +33,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else
 			return (0);
-	}	
-
+	}
 	return (val);
 }
 
