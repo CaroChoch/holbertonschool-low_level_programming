@@ -5,6 +5,7 @@
  *            of a list.
  * @head: A pointer to the head of a list.
  * @str: The string to be added to the list.
+ * @n: value of the new node.
  *
  * Return: If the function fails - NULL.
  *         Otherwise - the address of the new element.
