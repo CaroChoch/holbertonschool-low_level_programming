@@ -4,7 +4,6 @@
  * add_dnodeint - Adds a new node at the beginning
  *            of a list.
  * @head: A pointer to the head of a list.
- * @str: The string to be added to the list.
  * @n: value of the new node.
  *
  * Return: If the function fails - NULL.
@@ -31,4 +30,9 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	return (new);
 }
+
+
+
+
+
 
