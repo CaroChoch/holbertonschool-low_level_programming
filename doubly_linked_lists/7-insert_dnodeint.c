@@ -8,6 +8,7 @@
  * index of the list where the
  * new node should be added.
  * @n: The integer for the new node to contain.
+ * @idx: index of the new node
  *
  * Return: address of the new node or
  * NULL if it failled
