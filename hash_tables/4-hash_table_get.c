@@ -21,7 +21,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 
 	if (ht != NULL || key != NULL)
-	{		
+	{
 		index = key_index((unsigned char *)key, ht->size);
 		tmp = ht->array[index];
 /* Loop till we find an empty file entry */
